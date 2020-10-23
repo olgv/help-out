@@ -1,5 +1,4 @@
 
 ### Unity
 
-All the Unity related content resides on the `unity` branch:
-https://github.com/olgv/tutorials/tree/unity
+All Unity related content resides on the `unity` branch [HERE](https://github.com/olgv/tutorials/tree/unity).
