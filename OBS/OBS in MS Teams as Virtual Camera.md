@@ -31,7 +31,9 @@ B5 and:
 
 ### C. USE OBS AS VIRTUAL CAMERA
 C1. Start OBS and from the menu select `Tools > Start Virtual Camera`
+
 C2. Start a Microsoft Teams video call
+
 C3. From the bottom right camera input cycle through the inputs until you see OBS
 
 
