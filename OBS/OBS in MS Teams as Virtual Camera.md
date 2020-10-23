@@ -1,0 +1,45 @@
+
+### A. PREREQUISITE:
+
+A1. Install the Microsoft Teams Desktop App from:
+`https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app`
+
+A2. Install OBS from `https://obsproject.com/download`
+
+A3. Install the latest Mac Virtual Camera plugin for OBS by John Boiles:
+`https://github.com/johnboiles/obs-mac-virtualcam/releases/`
+
+
+
+### B. MODIFY THE LATEST VERSION OF TEAMS
+(Required to allow virtual camera inputs - disabled by Microsoft in a recent version)
+
+B1. Quit MS Teams
+B2. Open Terminal (Applications/Utilities/Terminal.app) and run the following commands:
+
+B3 If you haven't installed Xcode previously, first run:
+`xcode-select --install`
+
+B4 then, run:
+`sudo codesign --remove-signature "/Applications/Microsoft Teams.app"`
+will require your user password
+
+B5 and:
+`sudo codesign --remove-signature "/Applications/Microsoft Teams.app/Contents/Frameworks/Microsoft Teams Helper.app"`
+
+
+
+### C. USE OBS AS VIRTUAL CAMERA
+C1. Start OBS and from the menu select `Tools > Start Virtual Camera`
+C2. Start a Microsoft Teams video call
+C3. From the bottom right camera input cycle through the inputs until you see OBS
+
+
+
+
+### EXTRAS
+
+To mirror content in OBS, select it and use the menu:
+`Edit > Transform > Flip Horizontally`
+
+Updated on 23.10.2020
