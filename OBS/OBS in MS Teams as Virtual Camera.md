@@ -41,7 +41,7 @@ C3. From the bottom right camera input cycle through the inputs until you see OB
 
 ### EXTRAS
 
-To mirror content in OBS, select it and use the menu:
+To mirror content in OBS, select the desired OBS layer and use the menu:
 `Edit > Transform > Flip Horizontally`
 
 Updated on 23.10.2020
