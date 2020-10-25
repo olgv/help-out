@@ -1,8 +1,11 @@
-This template project was put together for the Architectural Association Communication & Media Studies students, part of the IOEZ.LIVE/21 course.
+This template project was put together for the Architectural Association Communication & Media Studies students, taking part in the IOEZ.LIVE/21 course.
 
-## MINIMAL
-Using the Unity Standard Render Pipeline
-
+## BASIC AR PROJECT
+**Using Unity 2020.1.10f1**<br>
+<p>
+Tailored for mobile (AR) devices<br>
+Using the Standard (old/classic) Render Pipeline
+</p>
 <p>
 Official packages used:<br>
 - AR Foundation v3.1.6<br>
